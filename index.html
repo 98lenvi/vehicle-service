@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body style="background-color:#1a1a1a">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">ROYAL ENFIELD</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#band">BIKES</a></li>
+        <li><a href="#tour">LOACTION</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">I</a></li>
+            <li><a href="#">Love</a></li>
+            <li><a href="#">bikes</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <script>
+      .carousel-img-width {
+                            width: 100%;
+                            }
+      </script>
+      <div class="item active">
+        <a href="#" id="vehicle" onclick="document.location='vehicle_info.php';return false;" >
+        <img src="vehicle_info.jpg" alt="vehicle_info" class="carousel-img-width">
+        </a>
+        <div class="carousel-caption">
+        <h3>Vehicle Details</h3>
+        <p>Registration number, mileage, owner name</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="#" id="customer" onclick="document.location='cust_info.php';return false;" >
+        <img src="customer_info.jpg" alt="customer_info" class="carousel-img-width"">
+        </a>
+        <div class="carousel-caption">
+        <h3>Customer Details</h3>
+        <p>Name, Phone Number, Address</p>
+        </div>
+      </div>
+    
+       <div class="item">
+        <a href="#" id="job" onclick="document.location='job_info.php';return false;" >
+        <img src="job_info.jpg" alt="job_info" style="width:100%;">
+        </a>
+        <div class="carousel-caption">
+        <h3>Job Details</h3>
+        <p>Parts changed, Mechanic name</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="#" id="part" onclick="document.location='part_info.php';return false;" >
+        <img src="part_info.jpg" alt="part_info" class="carousel-img-width">
+        </a>
+        <div class="carousel-caption">
+        <h3>Part Details</h3>
+        <p>Parts number, Name, Price, Stock</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="#" id="mech" onclick="document.location='mech_info.php';return false;" >
+        <img src="mech_info.jpg" alt="mech_info" class="carousel-img-width">
+        </a>
+        <div class="carousel-caption">
+        <h3>Mechanic Details</h3>
+        <p>Phone number, Name, Age</p>
+        </div>
+      </div>
+
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</body>
+</html>
