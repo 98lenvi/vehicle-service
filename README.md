@@ -9,3 +9,6 @@ Later enter localhost/vehicle-service into the web browser.
 The database is myphpadmin and that should be downloaded and run separately , you'll also have to design the database and the required tables.
 Please modify the database connection settings and set it to your user id and password.
 Open the video link and make the database as it is in the web pages.
+
+you can even use XAMPP on windows for easy set of Apache and Myphpadmin
+https://www.apachefriends.org/download.html
